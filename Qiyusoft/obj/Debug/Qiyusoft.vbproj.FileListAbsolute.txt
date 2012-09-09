@@ -1,0 +1,12 @@
+E:\VSWorkSpace\2012软件项目\启语科技\源代码\Qiyusoft\Qiyusoft\bin\Qiyusoft.dll
+E:\VSWorkSpace\2012软件项目\启语科技\源代码\Qiyusoft\Qiyusoft\bin\Qiyusoft.pdb
+E:\VSWorkSpace\2012软件项目\启语科技\源代码\Qiyusoft\Qiyusoft\bin\Qiyusoft.xml
+E:\VSWorkSpace\2012软件项目\启语科技\源代码\Qiyusoft\Qiyusoft\obj\Debug\ResolveAssemblyReference.cache
+E:\VSWorkSpace\2012软件项目\启语科技\源代码\Qiyusoft\Qiyusoft\obj\Debug\Qiyusoft.Resources.resources
+E:\VSWorkSpace\2012软件项目\启语科技\源代码\Qiyusoft\Qiyusoft\obj\Debug\GenerateResource.read.1.tlog
+E:\VSWorkSpace\2012软件项目\启语科技\源代码\Qiyusoft\Qiyusoft\obj\Debug\GenerateResource.write.1.tlog
+E:\VSWorkSpace\2012软件项目\启语科技\源代码\Qiyusoft\Qiyusoft\obj\Debug\Qiyusoft.dll
+E:\VSWorkSpace\2012软件项目\启语科技\源代码\Qiyusoft\Qiyusoft\obj\Debug\Qiyusoft.xml
+E:\VSWorkSpace\2012软件项目\启语科技\源代码\Qiyusoft\Qiyusoft\obj\Debug\Qiyusoft.pdb
+E:\VSWorkSpace\2012软件项目\启语科技\源代码\Qiyusoft\Qiyusoft\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\VSWorkSpace\2012软件项目\启语科技\源代码\Qiyusoft\Qiyusoft\obj\Debug\GenerateResource-ResGen.write.1.tlog
