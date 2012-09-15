@@ -21,7 +21,6 @@ Public Class Global_asax
 
     Sub Application_Error(ByVal sender As Object, ByVal e As EventArgs)
         ' 发生错误时激发
-        Response.Redirect("Myerror.aspx")
     End Sub
 
     Sub Session_End(ByVal sender As Object, ByVal e As EventArgs)

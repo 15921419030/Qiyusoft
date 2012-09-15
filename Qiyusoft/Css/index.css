@@ -29,8 +29,8 @@ input{border:1px solid #ccc;}
 #menu .menuright ul li{width:160px;height:38px;line-height:38px;float:left;color:#FFF;text-align:center;}
 #menu .menuright ul li a{color:#FFF;font-size:14px;font-weight:bold;}
 
-#menu .submenu{z-index:100;position:relative;filter:Alpha(opacity=50);}
-#menu .submenu ul li{width:60px;height:30px;line-height:30px;text-align:center;float:left;filter:Alpha(opacity=80);}
+#menu .submenu{z-index:100;position:relative;filter:Alpha(opacity=80);}
+#menu .submenu ul li{width:60px;height:30px;line-height:30px;text-align:center;float:left;filter:Alpha(opacity=80);color:#000000;}
 #menu .submenu .submenu_bg{height:30px;background:url(../images/submenu_bg_r1_c2.gif);}
 
 .main{width:660px;height:520px;float:left;}

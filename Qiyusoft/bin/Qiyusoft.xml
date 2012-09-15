@@ -6,23 +6,7 @@ Qiyusoft
 </name>
 </assembly>
 <members>
-<member name="F:Qiyusoft.Myerror.form1">
-	<summary>
-form1 控件。
-</summary>
-	<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member><member name="F:Qiyusoft.intenalError.form1">
-	<summary>
-form1 控件。
-</summary>
-	<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member><member name="F:Qiyusoft.NoAccess.form1">
+<member name="F:Qiyusoft.intenalError.form1">
 	<summary>
 form1 控件。
 </summary>
@@ -63,7 +47,7 @@ form1 控件。
  用于定义“My Web 命名空间”项目中的可用属性的模块。
  </summary>
 	<remarks></remarks>
-</member><member name="F:Qiyusoft._error.form1">
+</member><member name="F:Qiyusoft.Myerror.form1">
 	<summary>
 form1 控件。
 </summary>
@@ -84,6 +68,14 @@ form1 控件。
 	<summary>
   一个强类型的资源类，用于查找本地化的字符串等。
 </summary>
+</member><member name="F:Qiyusoft._error.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
 </member><member name="F:Qiyusoft._default.form1">
 	<summary>
 form1 控件。
@@ -95,6 +87,14 @@ form1 控件。
 </member><member name="F:Qiyusoft._default.GridView1">
 	<summary>
 GridView1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:Qiyusoft.NoAccess.form1">
+	<summary>
+form1 控件。
 </summary>
 	<remarks>
 自动生成的字段。

@@ -5,96 +5,66 @@
 	<title>主页</title>
 	<link href="css/index.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="pub/jquery-1.3.2-min.js"></script>
-	<script type="text/javascript">
-		function f_numview(n){
-			$("#numview").css({"top":"0px","left":"0px"});
-			switch(parseInt(n)){
-				case 1:
-					$("#numview").css({"top":"10px","left":"-140px","background":"url(images/icon.gif)"});
-					break;
-				case 2:
-					$("#numview").css({"top":"0px","left":"-115px","background":"url(images/icon.gif) no-repeat 0px -33px"});
-					break;
-				case 3:
-					$("#numview").css({"top":"-10px","left":"-87px","background":"url(images/icon.gif) no-repeat 0px -65px"});
-					break;
-				case 4:
-					$("#numview").css({"top":"-8px","left":"-60px","background":"url(images/icon.gif) no-repeat 0px -97px"});
-					break;
-				case 5:
-					$("#numview").css({"top":"-5px","left":"-30px","background":"url(images/icon.gif) no-repeat 0px -130px"});
-					break;
-			}
-		}
-
-		$(function(){
-			$("#num1").bind("mouseover",function(k){
-				f_numview(1);
-			});
-			$("#num2").bind("mouseover",function(k){
-				f_numview(2);
-			});
-			$("#num3").bind("mouseover",function(k){
-				f_numview(3);
-			});
-			$("#num4").bind("mouseover",function(k){
-				f_numview(4);
-			});
-			$("#num5").bind("mouseover",function(k){
-				f_numview(5);
-			});
-			
-			f_numview(1);
-			
-			$(".submenu").css({"top":"-10px","left":"30px"});
-			
-		});
-		
-	</script>
+	<script type="text/javascript" src="Pub/common.js"></script>
 </head>
 <body>
 <div id="container" >
 	<div class="header">
-		<div id="logo"><img src="images/logo.gif" alt="logo" /></div>
-		<div id="company"><img src="images/qiyukeji.gif" alt="logo" /></div>
-		<div id="header_r">
-			<ul>
-				<li class="tel"><img src="images/phone.png" alt="联系电话" style="vertical-align:middle;width:24px;height:24px;"/>400 1212 2132</li>
-				<li class="li_hr_01">加入收藏</li>
-				<li class="li_sp_01">|</li>
-				<li class="li_hr_01">联系我们</li>
-				<li class="li_sp_01">|</li>
-				<li class="li_hr_01">客服热线</li>
-			</ul>
-		</div>
-	</div>
-	<div id="menu">
-		<div class="menuleft">
-			<ul>
-				<li><a href="#">首页</a></li>
-				<li><a href="#">关于启语</a></li>
-				<li><a href="#">产品介绍</a></li>
-				<li><a href="#">服务中心</a></li>
-			</ul>
-		</div>
-		<div class="menuright">
-			<ul>
-				<li><a href="#">服务体系</a></li>
-				<li><a href="#">客服服务</a></li>
-			</ul>
-		</div>
-		<div class="submenu">
-			<ul>
-				<li style="width:9px;"><img src="images/submenu_bg_r1_c1.gif" alt="" /></li>
-				<li class="submenu_bg"><a href="#">大上海</a></li>
-				<li class="submenu_bg"><a href="#">北京故宫</a></li>
-				<li class="submenu_bg"><a href="#">天津包子</a></li>
-				<li class="submenu_bg"><a href="#">南京政府</a></li>
-				<li class="submenu_bg"><a href="#">南京政府</a></li>
-				<li style="width:9px;"><img src="images/submenu_bg_r1_c4.gif" alt="" /></li>
-			</ul>
-		</div>
-	</div>
+	    <div id="logo"><img src="images/logo.gif" alt="logo" /></div>
+	    <div id="company"><img src="images/qiyukeji.gif" alt="logo" /></div>
+	    <div id="header_r">
+		    <ul>
+			    <li class="tel"><img src="images/phone.png" alt="联系电话" style="vertical-align:middle;width:24px;height:24px;"/>400 1212 2132</li>
+			    <li class="li_hr_01">加入收藏</li>
+			    <li class="li_sp_01">|</li>
+			    <li class="li_hr_01">联系我们</li>
+			    <li class="li_sp_01">|</li>
+			    <li class="li_hr_01">客服热线</li>
+		    </ul>
+	    </div>
+    </div>
+    <div id="menu">
+	    <div class="menuleft">
+		    <ul>
+			    <li><a href="#">首页</a></li>
+			    <li><a href="#" onmousemove="menuMouseover(this,0);">启语科技</a></li>
+			    <li><a href="#" onmousemove="menuMouseover(this,1);">外语培训</a></li>
+			    <li><a href="#" onmousemove="menuMouseover(this,2);">软件服务</a></li>
+		    </ul>
+	    </div>
+	    <div class="menuright">
+		    <ul>
+			    <li><a href="#">服务体系</a></li>
+			    <li><a href="#">联系我们</a></li>
+		    </ul>
+	    </div>
+	    <div class="submenu" style="display:none;">
+		    <ul id="sub1">
+			    <li style="width:9px;"><img src="images/submenu_bg_r1_c1.gif" alt="" /></li>
+			    <li class="submenu_bg"><a href="#">关于启语</a></li>
+			    <li class="submenu_bg"><a href="#">领导致辞</a></li>
+			    <li class="submenu_bg"><a href="#">公司新闻</a></li>
+			    <li class="submenu_bg"><a href="#">诚聘英才</a></li>
+			    <li style="width:9px;"><img src="images/submenu_bg_r1_c4.gif" alt="" /></li>
+		    </ul>
+            <ul>
+			    <li style="width:9px;"><img src="images/submenu_bg_r1_c1.gif" alt="" /></li>
+			    <li class="submenu_bg"><a href="#">雅思托福</a></li>
+			    <li class="submenu_bg"><a href="#">外语咨询</a></li>
+			    <li class="submenu_bg"><a href="#">学校推荐</a></li>
+			    <li class="submenu_bg"><a href="#">机构服务</a></li>
+			    <li style="width:9px;"><img src="images/submenu_bg_r1_c4.gif" alt="" /></li>
+		    </ul>
+            <ul>
+			    <li style="width:9px;"><img src="images/submenu_bg_r1_c1.gif" alt="" /></li>
+			    <li class="submenu_bg"><a href="#">应用开发</a></li>
+			    <li class="submenu_bg"><a href="#">电子商务</a></li>
+			    <li class="submenu_bg"><a href="#">网站建设</a></li>
+			    <li class="submenu_bg"><a href="#">软件服务</a></li>
+			    <li style="width:9px;"><img src="images/submenu_bg_r1_c4.gif" alt="" /></li>
+		    </ul>
+	    </div>
+    </div>
 	<div class="main">
 		<div id="banner"></div>
 		<div id="tab">

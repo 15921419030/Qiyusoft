@@ -133,7 +133,9 @@
     <Content Include="Error\InternalError.aspx" />
     <Content Include="Error\Myerror.aspx" />
     <Content Include="Error\NoAccess.aspx" />
+    <Content Include="Pub\common.js" />
     <Content Include="Pub\jquery-1.3.2-min.js" />
+    <Content Include="Qiyusoft.aspx" />
     <Content Include="sub1.html" />
     <Content Include="sub2.html" />
     <Content Include="sub3.html" />
@@ -202,6 +204,13 @@
     </Compile>
     <Compile Include="Error\NoAccess.aspx.vb">
       <DependentUpon>NoAccess.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Qiyusoft.aspx.designer.vb">
+      <DependentUpon>Qiyusoft.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Qiyusoft.aspx.vb">
+      <DependentUpon>Qiyusoft.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
