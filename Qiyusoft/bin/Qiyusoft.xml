@@ -6,7 +6,23 @@ Qiyusoft
 </name>
 </assembly>
 <members>
-<member name="F:Qiyusoft.intenalError.form1">
+<member name="F:Qiyusoft.linkus.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:Qiyusoft.service.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:Qiyusoft.intenalError.form1">
 	<summary>
 form1 控件。
 </summary>
@@ -95,6 +111,94 @@ GridView1 控件。
 </member><member name="F:Qiyusoft.NoAccess.form1">
 	<summary>
 form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:Qiyusoft.Qiyusoft.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:Qiyusoft.Qiyusoft.aboutus_1">
+	<summary>
+aboutus_1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:Qiyusoft.Qiyusoft.lingdao_1">
+	<summary>
+lingdao_1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:Qiyusoft.Qiyusoft.news_1">
+	<summary>
+news_1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:Qiyusoft.Qiyusoft.joinus_1">
+	<summary>
+joinus_1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:Qiyusoft.Qiyusoft.nav_title1">
+	<summary>
+nav_title1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:Qiyusoft.Qiyusoft.nav_title2">
+	<summary>
+nav_title2 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:Qiyusoft.Qiyusoft.aboutus">
+	<summary>
+aboutus 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:Qiyusoft.Qiyusoft.lingdao">
+	<summary>
+lingdao 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:Qiyusoft.Qiyusoft.news">
+	<summary>
+news 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:Qiyusoft.Qiyusoft.joinus">
+	<summary>
+joinus 控件。
 </summary>
 	<remarks>
 自动生成的字段。

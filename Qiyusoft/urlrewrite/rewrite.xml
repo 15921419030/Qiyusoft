@@ -2,7 +2,13 @@
 <rewriteRules>
 
   <rewrite url="^~/aboutus.html$" to="~/Qiyusoft.aspx?Type=1" />
+  <rewrite url="^~/lingdao.html$" to="~/Qiyusoft.aspx?Type=2" />
+  <rewrite url="^~/news.html$" to="~/Qiyusoft.aspx?Type=3" />
+  <rewrite url="^~/joinus.html$" to="~/Qiyusoft.aspx?Type=4" />
+  <rewrite url="^~/service.html$" to="~/service.aspx" />
+  <rewrite url="^~/linkus.html$" to="~/linkus.aspx" />
   
+
   <!-- 简单实现： ~/Article/maozhuxi.html 
 		
 		<rewrite url="^~/Article/([^\.]+)\.html$" to="~/Default.aspx?n=$1" />

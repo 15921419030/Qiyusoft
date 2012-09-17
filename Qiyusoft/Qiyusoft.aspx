@@ -6,6 +6,25 @@
 <head runat="server">
     <title>启语科技</title>
     <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="Pub/jquery-1.3.2-min.js"></script>
+    <script type="text/javascript" src="Pub/common.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".sidebar_nav ul li").bind("click", function () {
+                $(".sidebar_nav ul li").each(function () {
+                    $(this).removeClass("selected");
+                });
+                $(".menuname").html(this.innerText);
+                $(this).addClass("selected");
+                var id = this.id;
+                var id = id.substring(0, id.length - 2);
+                $("#maincontent > div").each(function () {
+                    $(this).css("display", "none");
+                });
+                $("#" + id).css("display", "block");
+            });
+        })
+    </script>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -72,11 +91,10 @@
 			    <div class="sidebar_header"></div>
 			    <div class="sidebar_nav">
 				    <ul>
-					    <li>关于启语</li>
-					    <li>领导致辞</li>
-					    <li>领导寄语</li>
-					    <li>员工天地</li>
-					    <li>联系我们</li>
+					    <li id="aboutus_1" runat="server">关于启语</li>
+					    <li id="lingdao_1" runat="server">领导致辞</li>
+					    <li id="news_1" runat="server">公司新闻</li>
+					    <li id="joinus_1" runat="server">诚聘英才</li>
 				    </ul>
 			    </div>
 			    <div class="sidebar_bottom"></div>
@@ -95,27 +113,43 @@
 			    <div class="content_header"></div>
 			    <div class="content_bg">
 				    <div class="content_nav">
-					    <div style="float:right;">首页 > 公司介绍</div><img src="images/arrow-01.gif" style="vertical-align:middle;"/><span>公司简介<span>
+					    <div style="float:right;">首页 > <span class="menuname" id="nav_title1" runat="server">关于启语</span></div><img src="images/arrow-01.gif" style="vertical-align:middle;"/><span class="menuname" id="nav_title2" runat="server">关于启语</span>
 				    </div>
+                    <div id="maincontent">
+                        <div id="aboutus"  runat="server" style="display:none;">
+                            关于启语
+                        </div>
+                        <div id="lingdao"  runat="server" style="display:none;">
+                            领导致辞
+                        </div>
+                        <div id="news"  runat="server" style="display:none;">
+                            公司新闻
+                        </div>
+                        <div id="joinus"  runat="server" style="display:none;">
+                            招聘
+                        </div>
+                    </div>
+                    
 			    </div>
 			    <div class="content_bottom"></div>
 		    </div>
 		    <div class="sideBar_r">
-		
+		        
 		    </div>
 	    </div>
 	    <div style="width:100%;height:10px;clear:both;"></div>
 	    <div id="foot">
 		    <div class="footmenu">
 			    <ul>
-				    <li><a href="#">关于启语</a></li>
-				    <li><a href="#">领导致辞</a></li>
-				    <li><a href="#">公司新闻</a></li>
-				    <li><a href="#">诚聘英才</a></li>
+				    <li><a href="#">关于我们</a></li>
+				    <li><a href="#">联系我们</a></li>
+				    <li><a href="#">软件服务</a></li>
+				    <li><a href="#">版本说明书</a></li>
+				    <li><a href="#">广告服务</a></li>
 			    </ul>
-		    </div>
-		    <div class="copyright">
-			    Coryright &copy 2008-2012 Qiyusoft Company, all rights reserved. wangbaifeng@163.com
+			    <span class="copyright">
+				    Coryright &copy 2008-2012 Qiyusoft Company, all rights reserved. wangbaifeng@163.com
+			    </span>
 		    </div>
 	    </div>
     </div>
