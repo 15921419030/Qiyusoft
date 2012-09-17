@@ -133,9 +133,6 @@
 			    </div>
 			    <div class="content_bottom"></div>
 		    </div>
-		    <div class="sideBar_r">
-		        
-		    </div>
 	    </div>
 	    <div style="width:100%;height:10px;clear:both;"></div>
 	    <div id="foot">
